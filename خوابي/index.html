@@ -22,6 +22,7 @@
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "LocalBusiness", "name": "خوابي", "alternateName": "Khawabi", "description": "خوابي: أعسال السدر والطلح والحمضيات والأزهار البرية من مناحلنا، حبوب لقاح وخبز نحل، زيت زيتون بكر ممتاز من معصرتنا، دبس رمان وخروب، خل طبيعي وصابون. توصيل لكل الأردن خلال ٢٤ ساعة.", "image": "https://khawabistore.com/og.jpg", "logo": "https://khawabistore.com/logo.svg", "url": "https://khawabistore.com", "email": "saef@khawabistore.com", "telephone": "+962771577750", "foundingDate": "2016", "address": {"@type": "PostalAddress", "addressCountry": "JO"}, "areaServed": "JO", "openingHoursSpecification": {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"], "opens": "00:00", "closes": "23:59"}, "sameAs": ["https://www.instagram.com/khawabi.jo", "https://www.facebook.com/khawabi"]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "ar", "mainEntity": [{"@type": "Question", "name": "كيف أتيقّن أن العسل طبيعي؟", "acceptedAnswer": {"@type": "Answer", "text": "مناحلنا مفتوحةٌ لمن أراد أن يرى بنفسه في موسم الفرز، ويسعدنا أن نرسل لمن يسأل صوراً ومقاطع من مناحلنا وفرزنا. وقبل ذلك كلّه، سنواتٌ من زبائن يعودون إلينا ويوصون بنا."}}, {"@type": "Question", "name": "هل في منتجاتكم إضافات؟", "acceptedAnswer": {"@type": "Answer", "text": "أعسالنا وزيتنا ودبسنا وخلّ التفاح تصلك كما خرجت من الخلية والمعصرة والقدر، بلا أي إضافة. أما الخلطات — كالعسل بالمكسرات أو خلّ الكركم — فمكوّناتها طبيعية ومكتوبة كاملةً على العبوة."}}, {"@type": "Question", "name": "تحبّب العسل — أفسد؟", "acceptedAnswer": {"@type": "Answer", "text": "بل العكس. التحبّب أمرٌ طبيعي في العسل الخام، وتختلف سرعته من عسلٍ لآخر بحسب أزهاره. وإن أردته سائلاً فضع الوعاء في ماءٍ دافئ — لا مغلي — ربع ساعة."}}, {"@type": "Question", "name": "كيف يُخزَّن الدبس والزيت؟", "acceptedAnswer": {"@type": "Answer", "text": "كلاهما يُحبّ الظلمة والبرودة. يبقى الدبس عامين وأكثر في مكانٍ باردٍ بعيداً عن الشمس، ويمكن حفظه في الثلاجة بعد الفتح. أما الزيت فيُخزَّن مظلماً بارداً محكم الإغلاق؛ فالهواء والضوء هما ما يُفسده، لا الزمن."}}, {"@type": "Question", "name": "إلى أين تُوصِّلون؟", "acceptedAnswer": {"@type": "Answer", "text": "نوصّل إلى جميع محافظات المملكة خلال ٢٤ ساعة. وللطلبات من خارج الأردن نشحن عبر شركات الشحن الدولية، وتتحدّد المدة والكلفة بحسب الوجهة."}}]}</script>
 <style>html{background:#F7F8F4}@media(prefers-color-scheme:dark){html:not([data-theme="light"]){background:#0C110D}}
 *{box-sizing:border-box}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,10 +32,10 @@
 
 :root{
   --bg:#F7F8F4; --surface:#FFFFFF; --surface-2:#EFF2EA; --sunk:#F1F4EC;
-  --ink:#101A12; --ink-2:#4E5C50; --ink-3:#82907F;
+  --ink:#101A12; --ink-2:#4E5C50; --ink-3:#5F6C58;
   --line:#E0E6D8; --line-2:#EDF0E7;
   --brand:#2E5A33; --brand-deep:#16281A; --brand-soft:#E8EFE2;
-  --leaf:#7A9E3A; --gold:#AE8330; --gold-soft:#F3EBDA;
+  --leaf:#7A9E3A; --gold:#AE8330; --gold-text:#876320; --gold-soft:#F3EBDA;
   --on-brand:#FFFFFF;
   --r:4px;
   --f-ar-d:"Reem Kufi","Noto Kufi Arabic",sans-serif;
@@ -51,7 +52,7 @@
     --ink:#E8EFE4; --ink-2:#A0B0A1; --ink-3:#78887A;
     --line:#263327; --line-2:#1D281E;
     --brand:#59975E; --brand-deep:#2E5A33; --brand-soft:#18241A;
-    --leaf:#98C455; --gold:#CBA255; --gold-soft:#241D0F;
+    --leaf:#98C455; --gold:#CBA255; --gold-text:#CBA255; --gold-soft:#241D0F;
     --on-brand:#F3F8F1;
   }
 }
@@ -60,11 +61,12 @@
   --ink:#E8EFE4; --ink-2:#A0B0A1; --ink-3:#78887A;
   --line:#263327; --line-2:#1D281E;
   --brand:#59975E; --brand-deep:#2E5A33; --brand-soft:#18241A;
-  --leaf:#98C455; --gold:#CBA255; --gold-soft:#241D0F;
+  --leaf:#98C455; --gold:#CBA255; --gold-text:#CBA255; --gold-soft:#241D0F;
   --on-brand:#F3F8F1;
 }
 html[lang="en"]{ --f-d:var(--f-en-d); --f-b:var(--f-en-b); }
 
+html{scroll-padding-top:92px}
 *,*::before,*::after{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--f-b);
   font-size:16px;line-height:1.85;font-weight:400;-webkit-font-smoothing:antialiased}
@@ -80,7 +82,7 @@ p{margin:0}
 .wrap{max-width:var(--maxw);margin-inline:auto;padding-inline:24px}
 .sec{padding-block:clamp(68px,9vw,126px)}
 .eyebrow{font-family:var(--f-ar-k);font-size:.78rem;font-weight:500;letter-spacing:.14em;
-  color:var(--gold);margin:0 0 14px;display:flex;align-items:center;gap:12px;line-height:1}
+  color:var(--gold-text);margin:0 0 14px;display:flex;align-items:center;gap:12px;line-height:1}
 html[lang="en"] .eyebrow{font-family:var(--f-en-b);font-size:.7rem;font-weight:600;text-transform:uppercase}
 .eyebrow::after{content:"";height:1px;width:40px;background:var(--gold);opacity:.45}
 .sec-head{display:flex;flex-direction:column;gap:14px;max-width:60ch;margin-bottom:clamp(34px,5vw,58px)}
@@ -103,7 +105,7 @@ html[lang="en"] .eyebrow{font-family:var(--f-en-b);font-size:.7rem;font-weight:6
 .chip{font:inherit;font-family:var(--f-en-b);font-size:.74rem;font-weight:600;cursor:pointer;
   letter-spacing:.06em;background:transparent;border:1px solid var(--line);color:var(--ink-2);
   padding:7px 11px;border-radius:var(--r);line-height:1;transition:border-color .18s,color .18s}
-.chip:hover{border-color:var(--gold);color:var(--gold)}
+.chip:hover{border-color:var(--gold);color:var(--gold-text)}
 .burger{display:none;font:inherit;cursor:pointer;background:transparent;border:1px solid var(--line);
   color:var(--ink-2);width:36px;height:32px;border-radius:var(--r);place-items:center;padding:0}
 .burger svg{width:18px;height:18px}
@@ -228,10 +230,10 @@ html[lang="en"] .fl{font-family:var(--f-en-b)}
 .tag{font-family:var(--f-ar-b);font-size:.72rem;font-weight:400;color:var(--ink-3);
   letter-spacing:.02em;font-variant-numeric:tabular-nums}
 html[lang="en"] .tag{font-family:var(--f-en-b)}
-.tag.season{color:var(--gold)}
+.tag.season{color:var(--gold-text)}
 .badge-off{position:absolute;inset-block-start:16px;inset-inline-start:16px;
   font-family:var(--f-ar-k);font-size:.72rem;font-weight:500;letter-spacing:.03em;
-  background:var(--gold-soft);color:var(--gold);padding:5px 10px;border-radius:999px}
+  background:var(--gold-soft);color:var(--gold-text);padding:5px 10px;border-radius:999px}
 html[lang="en"] .badge-off{font-family:var(--f-en-b)}
 .cell.off .art,.cell.off .shot{opacity:.45;filter:saturate(.6)}
 .sizes{display:flex;flex-wrap:wrap;gap:6px}
@@ -264,7 +266,7 @@ html[lang="en"] .add{font-family:var(--f-en-b)}
   display:flex;align-items:baseline;gap:16px;flex-wrap:wrap}
 .recipes summary::-webkit-details-marker{display:none}
 .recipes summary h3{font-size:1.08rem;font-weight:600;flex:1;min-width:min(100%,16ch)}
-.recipes .uses{font-family:var(--f-ar-b);font-size:.76rem;font-weight:400;color:var(--gold);
+.recipes .uses{font-family:var(--f-ar-b);font-size:.76rem;font-weight:400;color:var(--gold-text);
   white-space:nowrap}
 html[lang="en"] .recipes .uses{font-family:var(--f-en-b)}
 .recipes summary::after{content:"";width:11px;height:11px;flex:0 0 auto;align-self:center;
@@ -352,7 +354,7 @@ html[dir="rtl"] .drawer{--slide:-100%}
   border-top:1px solid var(--line);border-inline-start:1px solid var(--line)}
 .step{padding:30px 24px;border-inline-end:1px solid var(--line);border-bottom:1px solid var(--line);
   display:flex;flex-direction:column;gap:11px}
-.step .n{font-family:var(--f-en-d);font-size:1.5rem;font-weight:300;color:var(--gold);
+.step .n{font-family:var(--f-en-d);font-size:1.5rem;font-weight:300;color:var(--gold-text);
   line-height:1;font-variant-numeric:tabular-nums;opacity:.85}
 .step h4{font-size:1.06rem}
 .step p{font-size:.88rem;font-weight:300;color:var(--ink-2);line-height:1.85}
@@ -380,7 +382,7 @@ html[dir="ltr"] .track{background:repeating-linear-gradient(to right,transparent
 .bar.all i{font-style:normal;font-size:.6rem;font-weight:700;color:#fff;letter-spacing:.04em;
   background:var(--barc);padding:0 8px;line-height:10px;border-radius:2px}
 .cal-note{font-size:.82rem;font-weight:300;color:var(--ink-3);margin-top:20px;padding-inline:2px}
-.cal-hint{display:none;font-size:.8rem;color:var(--gold);margin-top:14px;padding-inline:2px}
+.cal-hint{display:none;font-size:.8rem;color:var(--gold-text);margin-top:14px;padding-inline:2px}
 .cal-scroll{-webkit-overflow-scrolling:touch;scroll-snap-type:x proximity}
 @media(max-width:720px){
   .cal-hint{display:block}
@@ -460,6 +462,8 @@ html[dir="ltr"] .track{background:repeating-linear-gradient(to right,transparent
 .wa-float:hover{background:var(--brand-deep)}
 .wa-float svg{width:25px;height:25px}
 </style>
+</head>
+<body>
 
 <div id="app" dir="rtl">
 
@@ -709,7 +713,7 @@ html[dir="ltr"] .track{background:repeating-linear-gradient(to right,transparent
 </footer>
 
 <div class="scrim" id="scrim"></div>
-<aside class="drawer" id="drawer" role="dialog" aria-modal="true" aria-labelledby="drawerTitle" aria-hidden="true">
+<aside class="drawer" id="drawer" role="dialog" aria-modal="true" aria-labelledby="drawerTitle" aria-hidden="true" inert>
   <div class="drawer-top">
     <h2 id="drawerTitle" data-ar="طلبك" data-en="Your order">طلبك</h2>
     <button class="x" id="drawerClose" type="button" data-ar-label="إغلاق" data-en-label="Close" aria-label="إغلاق">×</button>
@@ -1044,6 +1048,12 @@ const T = {
   total     : { ar:"الإجمالي", en:"Total" }
 };
 
+const META = {
+  titleAr : "خوابي | Khawabi — عسل، زيت زيتون، دبس، خل وصابون طبيعي من الأردن",
+  titleEn : "Khawabi — Natural honey, olive oil, molasses, vinegar & soap from Jordan",
+  descAr  : document.querySelector('meta[name="description"]').content,
+  descEn  : "Khawabi: sidr, talh, citrus and wildflower honey from our own apiaries, bee pollen and bee bread, extra virgin olive oil from our own mill, pomegranate and carob molasses, natural vinegar and soap. Delivery across Jordan within 24 hours."
+};
 let LANG = "ar";
 let FILTER = "all";
 
@@ -1135,9 +1145,14 @@ function seasonLabel(p){
 let CART = [];
 try{ CART = JSON.parse(localStorage.getItem("kh_cart") || "[]"); }catch(e){ CART = []; }
 if(!Array.isArray(CART)) CART = [];
-CART = CART.filter(it => { const p = byId(it.id); return p && sizeOk(p, it.s); });
+/* يُحفظ الحجم باسمه (k) لا برقمه، فلا تتأثر السلال المحفوظة إذا تغيّر ترتيب الأحجام */
+CART = CART.map(it => {
+  const p = it && byId(it.id); if(!p) return null;
+  const s = it.k ? p.sizes.findIndex(z=>z.en===it.k) : it.s;
+  return (s >= 0 && sizeOk(p, s) && it.q > 0) ? {id:it.id, s, q:Math.floor(it.q)} : null;
+}).filter(Boolean);
 
-function saveCart(){ try{ localStorage.setItem("kh_cart", JSON.stringify(CART)); }catch(e){} }
+function saveCart(){ try{ localStorage.setItem("kh_cart", JSON.stringify(CART.map(it=>({id:it.id, k:byId(it.id).sizes[it.s].en, q:it.q})))); }catch(e){} }
 function addToCart(id, s){
   const p = byId(id); if(!p || !sizeOk(p,s)) return;
   const f = CART.find(i=>i.id===id && i.s===s);
@@ -1192,8 +1207,11 @@ function renderCart(){
   send.style.opacity = CART.length ? "1" : ".45";
   send.style.pointerEvents = CART.length ? "auto" : "none";
 }
+let drawerOpener = null;
 function openDrawer(){
   const d = document.getElementById("drawer");
+  drawerOpener = document.activeElement;
+  d.inert = false;
   d.classList.add("open"); d.setAttribute("aria-hidden","false");
   document.getElementById("scrim").classList.add("open");
   document.body.style.overflow = "hidden";
@@ -1201,9 +1219,11 @@ function openDrawer(){
 }
 function closeDrawer(){
   const d = document.getElementById("drawer");
-  d.classList.remove("open"); d.setAttribute("aria-hidden","true");
+  if(!d.classList.contains("open")) return;
+  d.classList.remove("open"); d.setAttribute("aria-hidden","true"); d.inert = true;
   document.getElementById("scrim").classList.remove("open");
   document.body.style.overflow = "";
+  if(drawerOpener && drawerOpener.focus) drawerOpener.focus();
 }
 
 /* ─── المنتجات ─── */
@@ -1227,9 +1247,13 @@ function renderFilters(){
 }
 
 function renderProducts(){
+  const picked = {};
+  document.querySelectorAll("#grid .cell").forEach(c=>{
+    const b = c.querySelector('.sz[aria-pressed="true"]'); if(b) picked[c.dataset.id] = Number(b.dataset.size);
+  });
   document.getElementById("grid").innerHTML = PRODUCTS.map(p=>{
     const ok = productOk(p);
-    const sel = ok ? firstOk(p) : -1;
+    const sel = !ok ? -1 : (picked[p.id] !== undefined && sizeOk(p, picked[p.id]) ? picked[p.id] : firstOk(p));
     const sizes = p.sizes.map((s,i)=>{
       const on = sizeOk(p,i);
       if(!on && CONFIG.hideUnavailable) return "";
@@ -1412,9 +1436,15 @@ document.getElementById("grid").addEventListener("click", e=>{
 });
 document.getElementById("drawerBody").addEventListener("click", e=>{
   const b = e.target.closest("[data-bump]");
-  if(b){ bumpItem(Number(b.dataset.bump), Number(b.dataset.d)); return; }
+  if(b){
+    const idx = Number(b.dataset.bump), d = b.dataset.d;
+    bumpItem(idx, Number(d));
+    const again = document.querySelector(`#drawerBody [data-bump="${idx}"][data-d="${d}"]`);
+    (again || document.getElementById("drawerClose")).focus();
+    return;
+  }
   const r = e.target.closest("[data-rm]");
-  if(r) removeItem(Number(r.dataset.rm));
+  if(r){ removeItem(Number(r.dataset.rm)); (document.querySelector("#drawerBody .rm") || document.getElementById("drawerClose")).focus(); }
 });
 const burger = document.getElementById("burger"), mnav = document.getElementById("mnav");
 burger.addEventListener("click", ()=>{ const open = mnav.classList.toggle("open"); burger.setAttribute("aria-expanded", String(open)); });
@@ -1423,7 +1453,19 @@ document.getElementById("cartFab").addEventListener("click", openDrawer);
 document.getElementById("drawerClose").addEventListener("click", closeDrawer);
 document.getElementById("scrim").addEventListener("click", closeDrawer);
 document.getElementById("clearCart").addEventListener("click", ()=>{ CART=[]; saveCart(); renderCart(); });
-document.addEventListener("keydown", e=>{ if(e.key==="Escape") closeDrawer(); });
+document.addEventListener("keydown", e=>{
+  if(e.key==="Escape") closeDrawer();
+  if(e.key==="Tab"){
+    const d = document.getElementById("drawer");
+    if(!d.classList.contains("open")) return;
+    const f = [...d.querySelectorAll("button, a[href]")].filter(x=>!x.disabled && x.offsetParent !== null && getComputedStyle(x).pointerEvents !== "none");
+    if(!f.length) return;
+    const first = f[0], last = f[f.length-1];
+    if(!d.contains(document.activeElement)){ e.preventDefault(); first.focus(); }
+    else if(e.shiftKey && document.activeElement===first){ e.preventDefault(); last.focus(); }
+    else if(!e.shiftKey && document.activeElement===last){ e.preventDefault(); first.focus(); }
+  }
+});
 
 function applyLang(){
   const ar = LANG==="ar";
@@ -1435,6 +1477,8 @@ function applyLang(){
   document.querySelectorAll("[data-ar-label]").forEach(el=>{ el.setAttribute("aria-label", ar ? el.dataset.arLabel : el.dataset.enLabel); });
   document.querySelectorAll("[data-ar-alt]").forEach(el=>{ el.setAttribute("alt", ar ? el.dataset.arAlt : el.dataset.enAlt); });
   document.getElementById("langBtn").textContent = ar ? "EN" : "عربي";
+  document.title = ar ? META.titleAr : META.titleEn;
+  document.querySelector('meta[name="description"]').setAttribute("content", ar ? META.descAr : META.descEn);
   const YEARS = Math.max(1, new Date().getFullYear() - 2016);
   document.getElementById("yearsFact").textContent = ar ? `${num(YEARS)} ${YEARS<=10 ? "سنوات" : "سنة"}` : `${YEARS} years`;
   document.getElementById("copy").textContent = "© " + new Date().getFullYear() + " " + (ar ? CONFIG.brandAr : CONFIG.brandEn);
