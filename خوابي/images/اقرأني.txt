@@ -1,0 +1,20 @@
+ضع هنا صور المنتجات وصور الخلفيات.
+
+صورتا الخلفية (اختياريتان — في CONFIG أعلى index.html):
+  hero-bg.jpg   خلفية الواجهة: مرعى أو خلايا أو نحل — عرضية ٢٤٠٠×١٣٥٠
+  band.jpg      خلفية الشريط العسلي: قرص عسل أو نحلة على زهرة — عرضية ٢٤٠٠×١٢٠٠
+
+صور المنتجات (مربّعة ١٢٠٠×١٢٠٠، أقل من ٤٠٠ كيلوبايت) — اسم الملف = id المنتج:
+  العسل          sidr  talh  citrus  wild
+  خلطات العسل    blend  creamed  nuts  ginseng  pollenhoney
+  من الخلية      pollen  beebread
+  زيت الزيتون    oil
+  الدبس          dibs  kharoub
+  الخل           khal  turmeric  ginger  garlic  propolis-vinegar
+  الصابون        soap-oil  soap-honey  soap-propolis  soap-mix
+  للنحّالين      queen  nuc
+
+ثم افتح index.html وابحث عن id المنتج، وضع اسم الملف في خانة img، مثلاً:
+  img:"images/sidr.jpg"
+
+إن لم تضع صورة لمنتجٍ ما تبقى الرسمة مكانها، وإن أخطأت في الاسم تعود الرسمة تلقائياً.
